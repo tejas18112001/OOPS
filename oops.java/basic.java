@@ -7,6 +7,10 @@
  *            2) Object is instace of a class 
  *            3) Object is physical entity that follow some rule of class
  * 
+ * Primitive Data tupe like int  , float , double are not actually object so we not use new keyword 
+ * Ex int x  ;   ➡ x is int type variable which is store in stack
+ *    int x = 10 ; ▶ here 10 is object created and it is store in heap and variable is in stack ;
+ * 
  * 
  * 
  * Compile time  : - Code is converting to bites / Machine level language
@@ -36,7 +40,25 @@ class basic {
         yogesh.roll_no = 35 ;
 
         System.out.println("Name : " + yogesh.name+"\n"+"ROll NO. : "+yogesh.roll_no+"\n"+"MARKS :" + yogesh.marks+"\n" ) ;
-    //   Student(yo)
+        
+        Student Other  = new Student(yogesh) ;
+        System.out.println("Name : " + Other.name+"\n"+"ROll NO. : "+Other.roll_no+"\n"+"MARKS :" + Other.marks+"\n" ) ;
+
+
+
+        // call constructor from another constructor ;
+
+        Student New = new Student() ;  
+        System.out.println("Name : " + New.name+"\n"+"ROll NO. : "+New.roll_no+"\n"+"MARKS :" + New.marks+"\n" ) ;
+     
+        Student one = new Student() ;
+        Student two = one;
+
+        // Here two is not copy of one object but actually two is reference to same object where one is pointing in heap
+        one.name = "Something name " ;
+        System.out.println(two.name);
+        
+
     }
 
 } ;
@@ -57,14 +79,23 @@ class Student {
 
     }
 
-    Student() {
-        System.out.println("Name : " + name+"\n"+"ROll NO. : "+roll_no+"\n"+"MARKS :" + marks+"\n" ) ;
-    }
-
-    Student(Student other) {
+    Student(Student other) {      
         this.name = other.name ;
         this.roll_no = other.roll_no ;
         this.marks = other.marks ;
     }
+
+    Student() {
+        // call constructor from another constructor
+        // internally it is like : - Student(100, "Default Name" , 100) ;
+        this(100, "Default Name" , 100) ;
+    }
+
+    //Call constructor from another constructor 👆 
+
+    
+
+
+    
 } ;
 
