@@ -3,7 +3,7 @@ public class final_keyword {
           
         final int a = 20 ; 
         // a = 30 ;
-        // this give erroe -> final not a;;ow to odify the value once declare ;
+        // this give erroe -> final not allow to modify the value once declare ;
         
 
         final A tejas = new A("Tejas Raut") ; 
