@@ -18,7 +18,7 @@ class Employee : promotion {   // employee class inherited from promotion ;
 
     
 
-    public :
+public :
    void introduceEmployee() {
         cout<<"Name :"<<name<<endl ;
         cout<<"Company : "<<company<<endl ;
@@ -125,11 +125,6 @@ int main() {
     Employee *s = &t ;
     r->introduceEmployee() ;
     // s->work() ;
-
-
-    
-  
-   
 
 
 }
