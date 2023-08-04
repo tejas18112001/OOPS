@@ -1,0 +1,12 @@
+
+1) Encapsulation is the wrapping all the methods and variables implementtion
+2) Abstration is Hiding the unnecessry detail to user like the class methods and the variables
+
+Difference between this two :-
+
+  Encapsulation is implemetaion level stuff
+  ->>>Encapsulation care about privacy of data and also used getter and setters to manupulates the value .
+
+
+  Abstraction is design level stuff
+
