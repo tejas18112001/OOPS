@@ -14,7 +14,7 @@ package properties.inheritance;
 
 
 
-public class Main {
+public  class Main {
     public static void main(String[] args) {
 //         Inheritance_Box obj1 = new Inheritance_Box() ;
 //         System.out.println(obj1.h + " "+obj1.l + " "+obj1.w);

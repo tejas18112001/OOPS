@@ -1,5 +1,5 @@
 package properties.inheritance;
-public class IB_IBchild_child extends IB_child {
+public  class IB_IBchild_child extends IB_child {
      public double boxPrice ;
 
      IB_IBchild_child() {

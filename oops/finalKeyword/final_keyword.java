@@ -1,15 +1,15 @@
 package finalKeyword;
 public class final_keyword {
     public static void main(String[]args) {
-          
-        final int a = 20 ; 
-        // a = 30 ;
-        // this give erroe -> final not allow to modify the value once declare ;
-        
-
-        final A tejas = new A("Tejas Raut") ; 
-        tejas.name = "Other Person Name" ;
-        A New = new A("Other name") ;  
+//
+//        final int a = 20 ;
+//        // a = 30 ;
+//        // this give erroe -> final not allow to modify the value once declare ;
+//
+//
+//        final A tejas = new A("Tejas Raut") ;
+//        tejas.name = "Other Person Name" ;
+//        A New = new A("Other name") ;
         // tejas = New ; 
         /*
          *   tejas = New 
@@ -54,3 +54,5 @@ class A {
     }   
     
 }
+
+

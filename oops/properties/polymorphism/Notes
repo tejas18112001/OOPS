@@ -1,0 +1,4 @@
+1)  Final method cannot be override
+2)  Final class cannot be even inheritate
+3)  static variables / method   cannot be  override //// static method are object independence and orriding is depends on object
+4)  Even static methods also cannot be override
