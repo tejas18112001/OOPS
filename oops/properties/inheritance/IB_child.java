@@ -1,3 +1,4 @@
+package properties.inheritance;
 public class IB_child extends Inheritance_Box {
 
     public double  weight ;

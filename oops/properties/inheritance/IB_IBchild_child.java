@@ -1,3 +1,4 @@
+package properties.inheritance;
 public class IB_IBchild_child extends IB_child {
      public double boxPrice ;
 

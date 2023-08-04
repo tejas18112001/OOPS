@@ -1,5 +1,6 @@
+package properties.inheritance;
 
-// Here we will see inheritance based on box example 
+// Here we will see properties.inheritance based on box example
 public class Inheritance_Box {
 
           public double l ;

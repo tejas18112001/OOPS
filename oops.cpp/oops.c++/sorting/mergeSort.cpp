@@ -19,7 +19,7 @@ void mergeSort(int *arr , int s , int e) {
         left2[i] = arr[startingIndex++] ;
     }
 
-     startingIndex = s ;
+    startingIndex = s ;
     int i = 0  , j = 0;
     while(i < len1 && j < len2) {
         if(left1[i] < left2[j] ) {

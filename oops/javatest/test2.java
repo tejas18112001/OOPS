@@ -1,2 +1,4 @@
-package javatest;public class test2 {
+package javatest;
+
+public class test2 {
 }
